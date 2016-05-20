@@ -39,3 +39,6 @@
 	Sales:  bryan at
 		Get session with solution architects.
 
+## EMCCode
+* RackHD seems like a really interesting application for managing and discovering assets.  Will investigate for my current Network Asset Discovery Database System project.
+  * http://rackhd.readthedocs.io/en/latest/index.html
