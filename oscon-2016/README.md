@@ -10,4 +10,5 @@ I attended 2 days of Tutorials (3.5 hours each) and 2 days of Sessions.
 
 I bounced around some of the sessions, so they might not be as well defined and eloquent.  Keep in mind I'm trying to take notes as well as retain the information from the event.
 
-These three functional languages: Haskell, Scala, and Clojure
+
+* (Using the ESP8266 to build the Internet of Things)[https://github.com/lastcoolnameleft/Conference-Notes/blob/master/oscon-2016/using-esp8266-to-build-iot.md]
