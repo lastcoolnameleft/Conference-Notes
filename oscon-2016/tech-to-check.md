@@ -15,6 +15,7 @@ This is my list of technologies, articles, etc. to investigate later when I have
 * Elixir (Ruby/Python + Erlang)
 * Racket (Most underrated language)
   *  cool dispatcher, super scheme
+  *  https://racket-lang.org/
 * X Expressions
 * http://www.bootstrapworld.org/
 * @osconbird
