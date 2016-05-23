@@ -2,6 +2,7 @@
 
 This is my list of technologies, articles, etc. to investigate later when I have more time.  
 
+* Project Redfish
 * https://github.com/dhinojosa/language-matrix
 * http://pomodorotechnique.com/get-started/
 * http://mqtt.org/
@@ -38,3 +39,6 @@ This is my list of technologies, articles, etc. to investigate later when I have
 * https://docs.python.org/2/library/functools.html
 * http://www.idris-lang.org/
   * "Idris: Practical Dependent Types with Practical Examples" by Brian McKenna
+* https://github.com/GovernmentCommunicationsHeadquarters/BoilingFrogs
+* unixstickers.com
+* appium.io
