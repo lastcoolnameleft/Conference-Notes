@@ -42,4 +42,8 @@
 *	Trying to get on Debian
 
 ## Other
-** http://openswitch.net
+* http://openswitch.net
+* https://en.wikipedia.org/wiki/OpenFlow - h/w adoption not 100%
+* Black box:  don't know what's going on underneath.  Can only run certain commands. 
+* Grey box: open system (like what Arista provides) can build on top of system like Linux.  Manu combine s/w and h/w together.
+* White box:  Just provide h/w, some compat. OS
