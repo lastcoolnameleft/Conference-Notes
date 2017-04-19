@@ -104,4 +104,68 @@
     * Space + Time Div multiplexing
     * Speed - measured in seconds
     * Efficiency - containers / Business Value
+* Your world is a diverse mix of app + infra
+* Start with a secure base + containerize apps
+* Build a supply chain (CaaS)
+  * Secure image registry
+  * control plane
+  * No logos on dev side or 
+  * IaaS is too low, Paas is too high, Caas is just right
+  * PG13: IaaS is great, but make sure you don't get your aaS in a sling
+* Secure Supply Chain from Dev to Build
+  * Use digital signatures
+* Demo Supply Chain
+  * Docker Trusted Registry
+    * Policies
+      * Image has to meet polcity before promoted.
+        * "Critical vunterabilities"
+      * Docker image scanning checks each image
+      * Use old version of alpine 
+      * Fixed issue.  Did it get promoted to prod?
+        * Yes.  Auto-promosted from dev->prod
+  * UI: Resources, etc.
+  * Need to add password.
+    * Injest as compose file
+    * Create secret, only available to container
+  * Running on hybrid Windows+Linux cluster
+    * Show MySQL SQL server on Win.  Payment gateway are Linux
+* Leverage the Ecosystem in the Supply Chain
+  * Major expansions
+    * IBM - Linux for z System and Power Series
+    * Every Major cloud - Alibaba cloud (Aspara stack agility), Google cloud Platform, 
+      * Alibaba is one of largest users
+        * Largest online retail in China
+        * Single's Day in China dwarfs Black Friday - 60% happens through Alibaba
+    * Broader Delivery Ecosystem
+      * Accenture has built application platform for integrating docker
+* Demo - Deploying 3rd party apps and traditional apps
+  * Convert LAMP stack to container
+    * image2docker - extract app from VMDK and creates Dockerfile
+    * now build dockerfile and push
+    * !! Converted VM into Container
+  * Containerize Oracle DB
+    * Oracle DB is alrady official app on store
+      * Oracle DB in a container
+      * Official Image from Oracle
+      * FN2187 ?
+    * Oracle has made decision to put apps like Oracle DB in store
+* Mark Cavage - VP Product Dev, Oracle
+  * Announcing Oracle on DockerStore
+  * What does this mean?
+    * We will support you running Oracle inside Docker
+    * WE have a DB + language
+  * We took heartstone, Oracle DB, Weblogid Server, Conherence and Java
+  * All s/w is available inside docker store
+  * Can use std docker run commands
+  * Putting all s/w in Store, Free for Dev/Test
+    * Call when you want PRod and/or Support
+  * Why?
+    * "If it's not in Docker, I don't download it..."
+    * Developers drive decisions
+    * Oracle s/w used by mijllions
+  * Why should ISV's be in Docker Store?
+    * Widely available - single marketplace for all s/w on any cloud
+    * Trusted and Certified -
+      * When we looked 80 version of WebLogic.  How do you know which one to use?
+  * Going to see a lot more from us this year
     
