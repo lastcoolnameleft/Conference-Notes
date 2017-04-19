@@ -168,4 +168,39 @@
     * Trusted and Certified -
       * When we looked 80 version of WebLogic.  How do you know which one to use?
   * Going to see a lot more from us this year
-    
+* The Docker Modernize Traditional Apps PRogram
+  * turnkey program - 5 apps and 5 days. 
+    * Show how to migrate application to Docker
+    * www.docker.com/MTA
+    * Works for Traditional apps + .NET
+* Aaron Ades - AVP Sol Eng MetLife
+  * Wow, an INsurance company at DockerCon
+  * Next year, Docker is turning 5.  MetLife is turning 150.
+  * Sell Life insurance.  All insurance is a promise
+  * A promise is a bit of information.  We've been in information bit for 150 years
+  * timeline
+    * 1920's 
+    * 1950 - first company in industry to invest in computing.  Univac.
+    * 1980's - first consolidated app.  shove in mainframe
+      * There is code still running from 1982
+    * Become a public company
+  * Wrapp the app
+    * just like bacon makes everything tastes better, wrap in microservices
+  * Tap the data
+    * modern data - arch ensures data flows freely.
+  * Scrapp the app
+    * Retire 
+  * New levels for savings
+    * consolidate VM's - up to 70% consolidation
+    * Move workloads to Azure
+    * Massive operational leverage
+  * Formed "ModSquad" team
+    * 1st foray into devops - "Go figure it out"
+    * and they did it and other stuff too.
+      * also did with chatops + bots
+    * Changed culture at MetLife.
+    * Got stuff done and had fun doing it
+    * Won award from CIO - "antiboties to the old culture"
+  * Even old elephants can dance
+    * Took 5 months to go from concept to prouduction with Docker
+    * "Docker 0 to 60 in 5 months: How a Traditional Fortune 40 Company Turns on a Dime"
