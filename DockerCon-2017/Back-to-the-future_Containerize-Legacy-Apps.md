@@ -80,3 +80,64 @@ Containerize Legacy Apps
     * 10 apps
     * 4x app density
     * 1/3 infra cost
+  * Next Steps
+    * Deploy at Scale
+      * across DockerEE
+      * Docker EE CI/CD Integration
+    * Prod Ops
+      * manage initial apps in prod
+      * Integrate docker content trust and Docker security scanning into prod build process
+    * Achieve Digital Transformation
+      * Contribute to i2D to continue to addr use cases
+      * VS2017
+      * Integrated Azure deployment
+* Rob Tanner - Div mgr, Enterprise Middlware serv - Northern Trust
+  * About NT
+    * Provider of Asset mgmt for instutions and families
+    * Not oldest.  MetLife blew out of water.  One of oldest
+    * Pride:  Best class services experience as possible
+    * S/w defined DC strategy
+      * Agility, Reliability, etc.
+  * Greenfield microservice apps are great, but what do I do w/ the other remainer of my apps?
+  * Our env
+    * 400+
+    * WebLogic Apps
+    * .NET apps
+    * Tomcat apps
+    * Try to make as lift and shift as possible
+  * Why traditional apps in Docker EE?
+  * Infrastructure Efficiency
+    * Old way
+      * App specific infrastructure provis
+      * Challenging dependency/middleware mgmt
+      * per app isolation
+    * Docker Way
+      * Heterogenous pool of infrastructure resources avail to apps
+      * dependencies middleware containe w/i app images
+      * multi-tenant
+    * Building Reliable Foundation for Hybrid Cloud
+      * With Azure, create dev app in docker and deploy on Azure w/i a Day
+      * Docker Declared Services
+  * Improved Security
+    * Limited attack surface
+    * Understood and scanned app BoM
+      * Heartbleed: How many people knew exactly how many impacted
+    * Automated patching in build process
+    * TLS signed images at every stage of build - Docker Notary
+    * 3rd party IPS/IDS
+  * Faster deployments w/ less infrastructure
+    * w/o docker:  29 days
+    * w/ Docker: 7 days (4x faster delpoyments)
+  * Docker EE single pane of glass
+    * Docker EE became the obvious choice since it's a single pane of glass for all workload...including Win/Lin stacks
+    * spring boot front-end
+    * asp.net web api
+  * Future of Docker at NT
+    * Docker EE is the standard for all legacy apps at NT...period
+    * Containerize WebLogic.
+      * Contain the WebLogic domain in container
+* takeaway
+  * identify your app
+  * start small
+  * keep it small
+* docker.com/MTA
