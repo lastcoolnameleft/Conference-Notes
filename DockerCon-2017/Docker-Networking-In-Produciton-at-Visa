@@ -1,0 +1,42 @@
+* enter containers
+  * 100's - 1k's of containers /hosts
+  * exist minutes or months.
+  * microservices that are horizontally distributed across more hosts
+  * the networking situation has gotten worse
+* In Docker 1.7, came out with Container Network Model
+  * Put Users and apps first
+    * Portable network policies defined in terms of apps
+    * Plugable API design - batteries included BUT removeable
+* Docker Networking - CNM - Container Network Model
+  * Need Scalable and Secure control plane
+  * Support across OS ecosystem
+* What's possible?
+  * describe everything aobut app in single file
+    * describe overlay encryption, overlay policies 
+    * multi-tier, multi-node app bring up for you.
+* Sasi Kannappan - Visa
+  * History of Docker at Visa
+    * Looked into at late 2015, 
+    * First containerized app in prod in late 2016
+  * Primary app env
+    * customer facing financial transaction platform
+    * not in prod for 6 months
+    * Comprised of ~100 containers and ability to scale to ~800
+    * 2 prod, 2 sandbox clusters across 2 regions
+  * !! Core system has been running with 0 downtown for last 2 decades
+  * Challenge of Change
+    * Security Landscape
+    * Infrastructure - Physical servers
+    * Tools in SDLC ecosystem - Dev, env, ci, versioning
+    * Ops tools
+  * Goals
+    * migration to Microservices Arch
+    * Dynamic Scalability
+    * Ops simplicity
+    * load balancer-less
+      * doesn't mean having LB capability
+      * don't want complexity of LB config.  (instances of services)
+* Docker networking ARchitecture
+  * Docker engine creates network control plane for you behind the scenes
+  * Each entry gets a virtual IP
+  * In docker 1.12, introduced healthcheck
