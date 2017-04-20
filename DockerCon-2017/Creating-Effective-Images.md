@@ -42,9 +42,8 @@
   * Ease of Dev - will have dev headers
     * Getting started, might care less about size
 * Simple changes, big results
-```FROM python:2.7-alpine```
+```FROM python:2.7-alpine
 # don't need apt-get
-```
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
@@ -125,6 +124,41 @@ USER dockercon
 ```from scratch
 copy ./dockercon /dockercon
 ENTRYPOINT ['/dockercon']
+```
 * Ruby
   * Official images for ruby are huge
   * every gem you have requires more gems
+* Nodejs
+  * If you love yourself ".dockerignore npm-debug.log".  Seriously
+  * cache node_modules
+```
+copy package.json .
+RUN npm install --produciton
+COPY . .
+```
+  * This way only run npm install if package.json changes
+* Build stages - New!
+```
+from ubuntu as build-env
+run apt-get install make
+add . /src
+run cd /sr && make
+```
+and for 2nd dockerfile copy from #1
+```
+from busybox
+copy --from=build-env //src/build/app /usr/local/bin/app
+export 80
+entrypoint /usr/local/bin/app
+```
+* Tools are here to help
+  * Docker Security Scan
+* Ecosystem
+  * Can build own OS with *nix
+  * Unikernels for Docker
+* takeaway
+  * Less layers is more
+  * share layers where possible
+  * not all lang should be the same
+  * keep simple
+  * tools are here to help
