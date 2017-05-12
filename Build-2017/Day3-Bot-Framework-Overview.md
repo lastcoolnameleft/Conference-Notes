@@ -121,3 +121,14 @@
     * deno'ed asking questions, and changing input data in the same sentence as confirming.
 * call to action
   * build bots - dev.botframework.com
+* QnA
+  * How do I search for data inside my company's corpus?
+    * QnA maker, Azure Search
+  * Adaptive Cards. XAML.  Can we consolidate on UI generation?
+    * Different for each canvas.  Not the same problem
+  * Why is Cortana channel just in US?
+    * Decision by Cortana team.  Just wanted to start there
+  * Any plans to support C# in v.Next browser dev? (just seen JS in demo)
+    * Yes
+  * Can we host bot service onPrem?
+    * Not on plan now.
