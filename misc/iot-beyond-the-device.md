@@ -136,6 +136,9 @@
         * Similiar to Arduino, but believe unhackable
 * Next steps
     * https://www.edx.org/
+    * https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-get-started
+    * https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-monitoring-notifications-with-azure-logic-apps
+    * https://github.com/kentstroker/IoT-Live-2017
 * Quotes
     * "Second mouse always gets the cheese"
     * Each DC is ~2 football fields and 600k servers
