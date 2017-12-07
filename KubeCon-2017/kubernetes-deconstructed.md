@@ -12,7 +12,7 @@
     * Custom Resource Def
     * Talks to etcd
   * kube-scheduler
-    * matrie d of API service
+    * Maître D of API service
     * Watch API server and makes decisions of who sits where
     * affinity,
     * Custom Schedulers
@@ -25,7 +25,7 @@
     * When k8s does something, it's the controller/controller manger that does it
   * kubelet - can be replace with rocketlet
     * Hooks to api server.  Lives on every node and makes thigns real
-    * "matree d" said to do x, do it.
+    * "Maître D" said to do x, do it.
     * Talks to runtime, makes it real
     * Talks to liveliness probes
   * kube-proxy
