@@ -149,3 +149,5 @@
   * Tool Example: Bringing Heptio Ark 
     * Disaster Recovery and portability to MS Azure
     * Not there yet on persistent volumes, but can move across clouds
+  * Jim's Paradox - When you mass increase efficiency, you expect to see consumption go down
+    * It actually goes up.  It drove consumption of coal considerablty 
