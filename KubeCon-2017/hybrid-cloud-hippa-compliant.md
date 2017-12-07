@@ -87,8 +87,11 @@
   * neat logo
   * program via rest api
   * Deploy kong in every namespace
-
-    
-* TODO
-  * Get HIPPA Compliant diagram from github
-  * github.com/upmc-enterprises/elastic-operator
+  * Not sidecars, deployed in every namespace
+* Use fluentd - 
+  * append HIPPA to log to dump to S3 bucket
+* no rules around images, implemented twistlick for image scans    
+  * Claire, kate, when new pods spins up checks image with claire.
+* extra links
+  * https://github.com/upmc-enterprises/kubernetes-on-aws
+  * https://github.com/upmc-enterprises/elasticsearch-operator
