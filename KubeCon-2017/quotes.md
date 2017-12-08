@@ -15,3 +15,7 @@
 he contrary is the truth" - William Stanley Jevons
 * "Hi, I'm Brandon Philips and I have 5 minutes" - Keynote speaker
 * "We have a Cloud Native landscape that doesn't fit on a 4k monitor" -- Clayton Coleman
+* Presenter pulls out a bag of dongles to connect to projector.  "This is why standardization is important.  Dongle anxiety is a real thing." -- Lachian Evenson
+* "Service meshes are the new black" - Jessie Frazelle
+* "Kubernetes is a platform for building other platforms.  It's a better place to start; not the endgame" -- Kelsey
+Hightower
